@@ -1,0 +1,53 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?76cae1731e9df64148905164ca32d7c1") format("truetype"),
+url("./flaticon.woff?76cae1731e9df64148905164ca32d7c1") format("woff"),
+url("./flaticon.woff2?76cae1731e9df64148905164ca32d7c1") format("woff2"),
+url("./flaticon.eot?76cae1731e9df64148905164ca32d7c1#iefix") format("embedded-opentype"),
+url("./flaticon.svg?76cae1731e9df64148905164ca32d7c1#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "right-quote": "\f101",
+    "personal": "\f102",
+    "loan": "\f103",
+    "debt": "\f104",
+    "agriculture": "\f105",
+    "scholarship": "\f106",
+    "loan-1": "\f107",
+);
+
+.flaticon-right-quote:before {
+    content: map-get($flaticon-map, "right-quote");
+}
+.flaticon-personal:before {
+    content: map-get($flaticon-map, "personal");
+}
+.flaticon-loan:before {
+    content: map-get($flaticon-map, "loan");
+}
+.flaticon-debt:before {
+    content: map-get($flaticon-map, "debt");
+}
+.flaticon-agriculture:before {
+    content: map-get($flaticon-map, "agriculture");
+}
+.flaticon-scholarship:before {
+    content: map-get($flaticon-map, "scholarship");
+}
+.flaticon-loan-1:before {
+    content: map-get($flaticon-map, "loan-1");
+}

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?76cae1731e9df64148905164ca32d7c1") format("truetype"),
+url("./flaticon.woff?76cae1731e9df64148905164ca32d7c1") format("woff"),
+url("./flaticon.woff2?76cae1731e9df64148905164ca32d7c1") format("woff2"),
+url("./flaticon.eot?76cae1731e9df64148905164ca32d7c1#iefix") format("embedded-opentype"),
+url("./flaticon.svg?76cae1731e9df64148905164ca32d7c1#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-right-quote:before {
+    content: "\f101";
+}
+.flaticon-personal:before {
+    content: "\f102";
+}
+.flaticon-loan:before {
+    content: "\f103";
+}
+.flaticon-debt:before {
+    content: "\f104";
+}
+.flaticon-agriculture:before {
+    content: "\f105";
+}
+.flaticon-scholarship:before {
+    content: "\f106";
+}
+.flaticon-loan-1:before {
+    content: "\f107";
+}
